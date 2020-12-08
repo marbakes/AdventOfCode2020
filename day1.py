@@ -25,9 +25,9 @@ def expensereport(entries, checksum):
 
 
 
-#print(expensereport('test_a.txt', 2020))
+print(expensereport('inputs/01/test_a.txt', 2020))
 
-#print(expensereport('input_a.txt', 2020))
+print(expensereport('inputs/01/input_a.txt', 2020))
 
 def initialize_points(bisect, entries_list):
 
@@ -69,8 +69,8 @@ def triexpensereport(entries, checksum):
         entries_list.pop(l)
         s, m, l = initialize_points(bisect, entries_list)
 
-print(triexpensereport('test_a.txt', 2020))
-print(triexpensereport('input_a.txt', 2020))
+print(triexpensereport('inputs/01/test_a.txt', 2020))
+print(triexpensereport('inputs/01/input_a.txt', 2020))
 
 
 
