@@ -1,3 +1,5 @@
+import re
+
 def password_verify(entries):
 
     import re
@@ -26,8 +28,6 @@ def password_verify(entries):
     return valids
 
 def password_verify_new(entries):
-
-    import re
 
     with open(entries, 'r') as reader:
 
